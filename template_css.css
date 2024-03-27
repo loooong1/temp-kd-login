@@ -1,0 +1,68 @@
+body, body * {font-family:Pretendard}
+.sapUiBackground {
+  background-image: none !important;
+}
+.hidden {
+  display: none;
+}
+.personal-login-logo {
+  width: 200px;
+  height: 40px;
+}
+.login-head {
+  text-align: center;
+}
+.login-head h1 {
+  margin-bottom: 53px;
+}
+.loginInputField {
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+}
+.login-setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.login-setting span {
+  display: flex;
+  align-items: center;
+}
+.login-setting span input {
+  border: 1px solid #c6c6c6;
+}
+.login-setting span label {
+  margin-left: 8px;
+}
+#USERNAME_BLOCK,
+#PASSWORD_BLOCK {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #c6c6c6;
+  height: 60px;
+  border-radius: 4px;
+}
+input,
+input::-webkit-input-placeholder {
+  color: #000000;
+  font-size: 1.15em;
+  font-weight: 700;
+}
+#LOGIN_LINK,
+#CHANGE_PASSWORD_LINK {
+  width: 100%;
+  height: 60px;
+  vertical-align: baseline;
+  background-color: #002866;
+  border-color: #002866;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  border-style: hidden;
+}

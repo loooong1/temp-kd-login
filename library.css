@@ -1,0 +1,507 @@
+body {
+  direction: ltr;
+}
+input,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+input[type="checkbox"] {
+  margin: 0 0.5rem 0 0.75rem;
+}
+.hspan {
+  height: 100vh;
+  width: 1px;
+  background-color: transparent;
+  visibility: hidden;
+}
+.loginDisplayNone {
+  display: none;
+}
+.loginHidden {
+  visibility: hidden;
+}
+.ltrInput {
+  direction: ltr;
+}
+.sapUiBody {
+  background-color: #fafafa;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin: 0;
+}
+.sapUiBackground {
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: scroll;
+  background-image: url("img/background.jpg");
+}
+.sapUiContentForegroundTextColor {
+  color: #333333;
+}
+.sapUiLightestBG {
+  background-color: #ffffff;
+}
+.sapUiSuccess {
+  background-color: #e4f6e4;
+  outline: none;
+  border: 1px solid #abe2ab;
+}
+.sapUiNeutral {
+  background-color: #f4f5f6;
+  outline: none;
+  border: 1px solid #d3d7d9;
+}
+.sapUiWarning {
+  background-color: #fef0db;
+  outline: none;
+  border: 1px solid #fabd64;
+}
+.sapUiError {
+  background-color: #ffe4e4;
+  outline: none;
+  border: 1px solid #ff8888;
+}
+.sapUiSuccess:hover,
+.sapUiSuccess:focus {
+  border-color: #38a338;
+}
+.sapUiNeutral:hover,
+.sapUiNeutral:focus {
+  border-color: #5e696e;
+}
+.sapUiWarning:hover,
+.sapUiWarning:focus {
+  border-color: #f9a429;
+}
+.sapUiError:hover,
+.sapUiError:focus {
+  border-color: #ee0000;
+}
+.sapUiButton {
+  background-color: #f7f7f7;
+  border: 1px solid #ababab;
+  color: #346187;
+}
+.sapUiButton:hover {
+  background-color: #ebebeb;
+  border-color: #ababab;
+}
+.sapUiButton:focus {
+  background-color: #427cac;
+  border-color: #427cac;
+}
+.sapUiButtonEmphasized {
+  color: #ffffff;
+  background-color: #5496cd;
+  border: 1px solid #367db8;
+  text-shadow: 0 1px #000000;
+}
+.sapUiButtonEmphasized:hover {
+  background-color: #367db8;
+  border-color: #367db8;
+}
+.sapUiButtonEmphasized:focus {
+  background-color: #427cac;
+  border-color: #427cac;
+  text-shadow: none;
+}
+.sapUiButtonLite {
+  color: #346187;
+  background-color: transparent;
+  border: 1px solid transparent;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+.sapUiButtonLite:hover {
+  background-color: rgba(191, 191, 191, 0.5);
+  border-color: rgba(191, 191, 191, 0.5);
+}
+.sapUiButtonLite:focus {
+  color: #ffffff;
+  background-color: #427cac;
+  border-color: #427cac;
+  text-shadow: none;
+}
+.sapMLabel {
+  color: #666666;
+  font-size: 0.875rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.sapUiSraTextError {
+  color: rgb(229, 41, 41);
+}
+.sapUiList {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+.sapUiListTitle {
+  width: 288px;
+  padding: 0 0.75rem;
+  font-size: 1.25rem;
+  color: #666666;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-bottom: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.sapUiListTitle:hover,
+.sapUiListTitle:focus {
+  outline: none;
+  border: 1px solid #427ca7;
+}
+.sapUiListRow {
+  padding: 0 0.75rem;
+  height: 2rem;
+  line-height: 2rem;
+  box-sizing: border-box;
+}
+.sapUiListRow:hover,
+.sapUiListRow:focus {
+  outline: none;
+  border: 1px solid #427ca7;
+}
+.sapUiDeleteSessions {
+  color: #333333;
+}
+header {
+  position: absolute;
+  top: 0;
+}
+.loginLogo {
+  margin: 0.75rem 1rem;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.loginCopyright {
+  position: relative;
+  right: 0;
+  padding: 1rem;
+}
+main {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  margin: 0;
+}
+.loginForm {
+  margin: 0 auto;
+  width: 288px;
+}
+.sapUiSraAfterLogin .loginForm {
+  opacity: 0.3;
+}
+.loginInput {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin: 0.5rem 0;
+}
+.loginHiddenAccessible {
+  position: absolute;
+  left: -150%;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.loginInputField {
+  height: 2.5rem;
+  width: 288px;
+  padding: 0 0.75rem;
+  box-sizing: border-box;
+  border: 1px solid #bfbfbf;
+}
+.loginInputField:hover,
+.loginInputField:focus {
+  outline: none;
+  border-color: #427ca7;
+}
+.loginDisplayInput {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  margin: 0.75rem 0 0.5rem;
+}
+.loginDisabledInput {
+  opacity: 0.5;
+}
+.loginSelect {
+  width: 288px;
+  height: 2.5rem;
+  padding: 0 0.75rem;
+  box-sizing: border-box;
+  border: 1px solid #bfbfbf;
+}
+.loginSelect:hover,
+.loginSelect:focus {
+  border-color: #427ca7;
+}
+.loginMessage {
+  position: relative;
+  width: 288px;
+  margin: 0.75rem auto;
+  padding: 0.4375rem 0.75rem;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+.loginMessageContainer {
+  position: relative;
+  width: 288px;
+  margin: 0.75rem auto;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+.loginMessageButton {
+  position: absolute;
+  top: 0.125rem;
+  right: 0.125rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 0;
+  text-align: center;
+}
+.loginButtonRow {
+  margin: 0.75rem 0 0.5rem;
+}
+.loginButton {
+  width: 288px;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 0 0.75rem;
+}
+.loginLink {
+  width: 288px;
+  text-align: center;
+}
+.loginLink a {
+  text-decoration: none;
+  color: #0070b1;
+}
+.loginLink a:hover {
+  text-decoration: underline;
+  color: #0070b1;
+}
+.loginLink a:visited {
+  text-decoration: none;
+  color: #0070b1;
+}
+.busyAnimation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 3rem;
+  height: 1rem;
+  margin: 0 auto;
+  display: none;
+}
+.sapUiSraShowLogonAnimation .busyAnimation {
+  display: block;
+}
+.busyAnimation > div {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  box-shadow: inset 0 0 3px 16px rgba(66, 124, 172, 1);
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  -webkit-animation: busyAnimation 1.8s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  -moz-animation: busyAnimation 1.8s infinite ease-in-out;
+  -moz-animation-fill-mode: both;
+  animation: busyAnimation 1.8s infinite ease-in-out;
+  animation-fill-mode: both;
+}
+.busyAnimation > div:nth-child(1) {
+  -webkit-animation-delay: -0.32s;
+  -moz-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.busyAnimation > div:nth-child(2) {
+  -webkit-animation-delay: -0.16s;
+  -moz-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+@-webkit-keyframes busyAnimation {
+  0% {
+    -webkit-transform: scale(0.4);
+    background: rgba(66, 124, 172, 1);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    background: rgba(66, 124, 172, 0.1);
+    box-shadow: inset 0 0 2px 1px rgba(66, 124, 172, 0.8);
+  }
+  80%,
+  100% {
+    -webkit-transform: scale(0.4);
+  }
+}
+@-moz-keyframes busyAnimation {
+  0% {
+    -moz-transform: scale(0.4);
+    background: rgba(66, 124, 172, 1);
+  }
+  40% {
+    -moz-transform: scale(1);
+    background: rgba(66, 124, 172, 0.1);
+    box-shadow: inset 0 0 2px 1px rgba(66, 124, 172, 0.8);
+  }
+  80%,
+  100% {
+    -moz-transform: scale(0.4);
+  }
+}
+@keyframes busyAnimation {
+  0% {
+    transform: scale(0.4);
+    background: rgba(66, 124, 172, 1);
+  }
+  40% {
+    transform: scale(1);
+    background: rgba(66, 124, 172, 0.1);
+    box-shadow: inset 0 0 2px 1px rgba(66, 124, 172, 0.8);
+  }
+  80%,
+  100% {
+    transform: scale(0.4);
+  }
+}
+@media (max-height: 499px) {
+  .sapUiSraPwdHeight header {
+    display: none;
+  }
+  .sapUiSraPwdHeight footer {
+    display: none;
+  }
+}
+@media (max-height: 469px) {
+  .sapUiSraLoginHeight7 header {
+    display: none;
+  }
+  .sapUiSraLoginHeight7 footer {
+    display: none;
+  }
+}
+@media (max-height: 449px) {
+  .sapUiSraLoginHeight6 header {
+    display: none;
+  }
+  .sapUiSraLoginHeight6 footer {
+    display: none;
+  }
+}
+@media (max-height: 429px) {
+  .sapUiSraLoginHeight5 header {
+    display: none;
+  }
+  .sapUiSraLoginHeight5 footer {
+    display: none;
+  }
+}
+@media (max-height: 409px) {
+  .sapUiSraLoginHeight4 header {
+    display: none;
+  }
+  .sapUiSraLoginHeight4 footer {
+    display: none;
+  }
+}
+@media (max-height: 389px) {
+  .sapUiSraLoginHeight3 header {
+    display: none;
+  }
+  .sapUiSraLoginHeight3 footer {
+    display: none;
+  }
+}
+@media (max-height: 369px) {
+  header {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}
+@media (max-height: 429px) {
+  .sapUiSraPwdHeight main {
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+}
+@media (max-height: 399px) {
+  .sapUiSraLoginHeight7 main {
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+}
+@media (max-height: 379px) {
+  .sapUiSraLoginHeight6 main {
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+}
+@media (max-height: 359px) {
+  .sapUiSraLoginHeight5 main {
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+}
+@media (max-height: 339px) {
+  .sapUiSraLoginHeight4 main {
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+}
+@media (max-height: 319px) {
+  .sapUiSraLoginHeight3 main {
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+}
+@media (max-height: 299px) {
+  main {
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+}
