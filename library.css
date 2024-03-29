@@ -189,16 +189,16 @@ footer {
 main {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-90%);
+  -ms-transform: translateY(-90%);
+  -moz-transform: translateY(-90%);
+  transform: translateY(-90%);
   width: 100%;
   margin: 0;
 }
 .loginForm {
   margin: 0 auto;
-  width: 288px;
+  width: 400px;
 }
 .sapUiSraAfterLogin .loginForm {
   opacity: 0.3;
@@ -206,7 +206,6 @@ main {
 .loginInput {
   height: 2.5rem;
   line-height: 2.5rem;
-  margin: 0.5rem 0;
 }
 .loginHiddenAccessible {
   position: absolute;
@@ -275,6 +274,10 @@ main {
 }
 .loginButtonRow {
   margin: 0.75rem 0 0.5rem;
+  margin-top: 56px;
+}
+.loginButtonRow + .loginButtonRow {
+  margin-top: 12px;
 }
 .loginButton {
   width: 288px;
